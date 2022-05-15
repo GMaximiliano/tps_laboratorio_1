@@ -2,10 +2,7 @@
 #include "ArrayPassenger.h"
 #define LLENO 0
 #define VACIO 1
-//boolean = true,false
-//en c boolean = true = 1, false = 0
 
-//////////////////////////////////////////////////////////////////
 
 int InitPassenger(Passenger list[], int len)
 {
@@ -18,7 +15,6 @@ int InitPassenger(Passenger list[], int len)
 
 }
 
-//////////////////////////////////////////////////////////////////
 
 int AddPassenger(Passenger list[], int len, int id, char name[], char lastName[], float price, int typePassenger, char flyCode[])
 {
@@ -63,7 +59,6 @@ int AddPassenger(Passenger list[], int len, int id, char name[], char lastName[]
 	return response;
 }
 
-//////////////////////////////////////////////
 int updatePassenger(Passenger list[],int len, int id,char name[],char lastName[],float price,int typePassenger,char flyCode[]){
 
 	Passenger p;
@@ -110,7 +105,6 @@ int updatePassenger(Passenger list[],int len, int id,char name[],char lastName[]
 }
 
 
-///////////////////////////////////////////////////////////////////
 
 int RemovePassenger(Passenger list[], int len, int id)
 {
@@ -129,7 +123,6 @@ int RemovePassenger(Passenger list[], int len, int id)
 	return response;
 }
 
-////////////////////////////////////////////////////////////////////
 
 int SortPassengers(Passenger list[],int len, int order)
 {
@@ -200,7 +193,6 @@ else
 	return retorno;
 }
 
-///////////////////////////////////////////////////////////////////////
 
 int PrintPassenger(Passenger list[], int length)
 {
@@ -308,8 +300,7 @@ int SortPassengersByCode(Passenger list[], int len, int order)
 	}
 	return retorno;
 }
-/////
-///////////////////////////////////////////////////////////////////////
+
 
 void cargaForzada (Passenger listaDePasajeros[], int tam)
 
